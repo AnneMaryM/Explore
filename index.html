@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore: Travel The World</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/partlogo.png"/>
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <div class="logo"><a href="#"><img src="images/logo.png"></a></div> 
+
+    <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="#discover">discover</a>
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="#destination">Cities</a>
+        <a data-aos="zoom-in-left" data-aos-delay="1150" href="#blogs">blogs</a>
+    </nav>
+
+    <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">Destination</a>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150">Find your destination</span>
+        <h3 data-aos="fade-up" data-aos-delay="300">Discover The World</h3>
+        <p data-aos="fade-up" data-aos-delay="450">We believe that travel is a journey of discovery and adventure, a chance to explore the beauty and diversity of the world we live in. Our website is your gateway to unforgettable experiences, from the soaring peaks of mountain ranges to the sparkling waters of tropical beaches.</p>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- booking form section starts  -->
+
+<section class="book-form" id="book-form">
+    <form action="" onsubmit="return redirectToCountryPage();">
+        <div class="inputBox">
+            <span>where to?</span>
+            <input type="text" placeholder="place name" value="" id="country-input">
+            <ul class="auto-box">
+                <li>Italy</li>
+                <li>France</li>
+                <li>Hungary</li>
+                <li>United States</li>
+            </ul>
+        </div>
+        <input type="submit" value="find now" class="btn">
+    </form>
+</section>
+
+<!-- booking form section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+        <video src="images/about-vid-1.mp4" muted autoplay loop class="video"></video>
+        <div class="controls">
+            <span class="control-btn" data-src="images/about-vid-1.mp4"></span>
+            <span class="control-btn" data-src="images/about-vid-2.mp4"></span>
+            <span class="control-btn" data-src="images/about-vid-3.mp4"></span>
+        </div>
+    </div>
+
+    <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <span>Are you ready to explore?</span>
+        <h3>Let's Discover the World Together</h3>
+        <p>At Explore, we share a common desire to discover and explore the world around us. We believe that travel is a journey of self-discovery, a chance to immerse ourselves in new cultures, try new things, and make unforgettable memories.</p>
+        <a href="about.html" class="btn">read more</a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- discover section starts  -->
+
+<section class="services" id="discover">
+
+    <div class="heading">
+        <span>Discover</span>
+        <h1>New Horizons</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <i class="fas fa-globe-europe"></i>
+            <h3>Local Culture and Traditions</h3>
+            <p>Immerse yourself in the local culture and traditions of your destination, from music and dance to crafts and folklore.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="200">
+            <i class="fas fa-hiking"></i>
+            <h3>Natural Wonders and Outdoor Adventure</h3>
+            <p>Experience the thrill of outdoor adventure and marvel at the natural wonders that surround you, from towering mountains to pristine beaches.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="250">
+            <i class="fas fa-wine-glass-alt"></i>
+            <h3>Culinary Delights and Wine Tasting</h3>
+            <p>Indulge in culinary delights and savor the taste of the local cuisine, complemented by the finest wines from the region's vineyards.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <i class="fas fa-hotel"></i>
+            <h3>Art, History, and Architecture</h3>
+            <p>Discover the art, history, and architecture of your destination, from ancient ruins and majestic landmarks to vibrant museums and galleries.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="350">
+            <i class="fas fa-hot-tub"></i>
+            <h3>Relaxation and Wellness</h3>
+            <p>Recharge your mind and body with relaxation and wellness activities, from yoga and meditation to spa treatments and hot springs.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="400">
+            <i class="fas fa-road"></i>
+            <h3>Journey to the Road Less Traveled</h3>
+            <p>Venture off the beaten path and explore hidden gems, remote villages, and lesser-known destinations that offer a unique and authentic travel experience.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- discover section ends -->
+
+<!-- Destinations section starts  -->
+
+<section class="gallery" id="destination">
+
+    <div class="heading">
+        <span>Cities</span>
+        <h1>Find Your Next Home</h1>
+    </div>
+    
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="images/gallery-img-1.jpg" alt="">
+            <span>Reykjavík</span>
+            <h3>iceland</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <img src="images/gallery-img-2.jpg" alt="">
+            <span>amsterdam</span>
+            <h3>Netherlands</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <img src="images/gallery-img-3.jpg" alt="">
+            <span>vienna</span>
+            <h3>austria</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <img src="images/gallery-img-4.jpg" alt="">
+            <span>Bangkok</span>
+            <h3>thailand</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <img src="images/gallery-img-5.jpg" alt="">
+            <span>Brasília</span>
+            <h3>brazil</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <img src="images/gallery-img-6.jpg" alt="">
+            <span>Malé</span>
+            <h3>maldive</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <img src="images/gallery-img-7.jpg" alt="">
+            <span>Rome</span>
+            <h3>Italy</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <img src="images/gallery-img-8.jpg" alt="">
+            <span>Paris</span>
+            <h3>France</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up">
+            <img src="images/gallery-img-9.jpg" alt="">
+            <span>Budapest</span>
+            <h3>Hungary</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <span>blogs</span>
+        <h1>unfold your stories</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="image">
+                <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">Travel far, discover more</a>
+                <p>Embarking on a journey to far-off lands can open your eyes to new cultures, people, and experiences that you may never have discovered otherwise - travel far, discover more.</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> 30th march 2020</a>
+                    <a href="#"><i class="fas fa-user"></i> by carl</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="image">
+                <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">Life is a journey, let's make it an adventure</a>
+                <p>The world is vast and full of wonders waiting to be explored, and it's up to you to take the first step and discover all that it has to offer.</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> 2nd august, 2023</a>
+                    <a href="#"><i class="fas fa-user"></i> by joe</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="image">
+                <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">Life is a journey, not a destination</a>
+                <p>Whether you're seeking relaxation or adventure, cultural immersion or natural wonders, life is a journey that should be embraced and celebrated.</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> 10th june, 2022</a>
+                    <a href="#"><i class="fas fa-user"></i> by haily</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- banner section starts  -->
+
+<div class="banner">
+
+    <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <span>Unleash Your Inner Explorer </span>
+        <h3>start your adventures</h3>
+        <p> Ready for an adventure that's out of this world?Start exploring now and get ready to make memories that will last a lifetime!</p>
+        <a href="#book-form" class="btn">Find your Destination</a>
+    </div>
+
+</div>
+
+<!-- banner section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="100">
+            <div class="logo"><a href="#"><img src="images/logo.png"></a></div> 
+            <p>Discover The World Through</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#discover" class="links"> <i class="fas fa-arrow-right"></i> discover </a>
+            <a href="#destination " class="links"> <i class="fas fa-arrow-right"></i> cities  </a>
+            <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="200">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map"></i> Boston, MA </p>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            <p style="text-transform: lowercase;"> <i class="fas fa-envelope"></i> annemary@gmail.com </p>
+            <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" class="email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="credit">Explore by <span>Ann Mary</span></div>
+
+<!-- footer section ends -->
+
+
+<script src="suggestions.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
+
+</body>
+</html>
